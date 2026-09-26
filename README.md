@@ -40,6 +40,11 @@ Power BI Dashboard
 Databricks Genie Agent
 Natural-language analysis
 ```
+## Architecture
+
+![CivicPulse Architecture](docs/architecture.png)
+
+CivicPulse follows a medallion-style Databricks architecture, moving municipal complaint data from raw ingestion through transformation and quality analysis into curated Gold datasets. The Gold layer supports demand forecasting, anomaly and intervention intelligence, Power BI analytics, and natural-language exploration through Databricks Genie.
 
 ## Key Capabilities
 
