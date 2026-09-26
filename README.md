@@ -388,25 +388,25 @@ The forecast should be interpreted as a model output based on historical recorde
 CivicPulse/
 │
 ├── README.md
-│
-├── notebooks/
-│   ├── 01_bronze_ingestion.ipynb
-│   ├── 02_silver_quality_analysis.ipynb
-│   ├── 03_ml_feature_engineering.ipynb
-│   └── ...
-│
-├── docs/
-│   ├── architecture.png
-│   ├── dashboard_overview.png
-│   └── genie_agent.md
-│
-├── powerbi/
-│   └── README.md
+├── .gitignore
 │
 ├── data/
 │   └── README.md
 │
-└── .gitignore
+├── docs/
+│   ├── architecture.png
+│   └── genie_agent.md
+│
+├── notebooks/
+│   ├── 01_bronze_ingestion.ipynb
+│   ├── 02_silver_quality_analysis.ipynb
+│   └── 03_ml_feature_engineering.ipynb
+│
+└── powerbi/
+    ├── README.md
+    ├── operations_overview.png
+    ├── demand_anomaly_intelligence.png
+    └── intervention_intelligence.png
 ```
 
 ## Key Engineering Decisions
