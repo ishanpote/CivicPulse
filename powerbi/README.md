@@ -93,9 +93,24 @@ Because the source contains missing calendar dates, this should not automaticall
 
 ---
 
+---
+
 ## Dashboard Screenshots
 
-Screenshots of the dashboard pages are stored in this directory:
+### Operations Overview
 
-```text
-powerbi/
+![Operations Overview](operations_overview.png)
+
+This page provides a high-level view of current complaint demand, backlog, intervention pressure, forecast output, and the current operational situation.
+
+### Demand & Anomaly Intelligence
+
+![Demand & Anomaly Intelligence](demand_anomaly_intelligence.png)
+
+This page focuses on operational demand surges, anomaly classifications, surge persistence, and supporting event-level metrics.
+
+### Intervention Intelligence
+
+![Intervention Intelligence](intervention_intelligence.png)
+
+This page presents intervention-pressure distribution, high-priority events, backlog persistence, and current decision-support signals.
