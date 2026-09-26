@@ -65,4 +65,4 @@ To reproduce the pipeline:
 
 The notebooks build the Bronze, Silver, and Gold analytical layers.
 
-See the project README for the complete architecture and analytical methodology.
+See the project [README](README.md) for the complete architecture and analytical methodology.
