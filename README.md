@@ -80,6 +80,13 @@ The dataset currently contains **3,371 recorded observations**, covering:
 
 The source contains **10 missing calendar dates**. These dates are preserved as missing observations rather than being filled with zero complaints.
 
+## Project Documentation
+
+- [System Architecture](docs/architecture.png)
+- [Genie Agent Documentation](docs/genie_agent.md)
+- [Power BI Dashboard](powerbi/README.md)
+- [Dataset Documentation](data/README.md)
+
 ## Technology Stack
 
 | Layer | Technology |
